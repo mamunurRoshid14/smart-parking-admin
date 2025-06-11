@@ -1,0 +1,41 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.home-button {
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.add-user-button {
+  background-color: #007bff;
+}
+
+.add-user-button:hover {
+  background-color: #0056b3;
+}
+
+.view-report-button {
+  background-color: #28a745;
+}
+
+.view-report-button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .button-grid {
+    grid-template-columns: 1fr;
+  }
+}
